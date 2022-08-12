@@ -5,3 +5,19 @@ h1 {
 .mytext {
     color:cornflowerblue;
 }
+
+/*黑幕*/
+.heimu,.heimu a{ /* 类别选择器 */
+    background-color: #252525; /**/
+    color:#252525;
+    text-shadow: none;
+}
+::selection{ /*伪元素，选定文本内容后高亮的颜色。加两个冒号用于区别伪类。*/
+    background:#9ab0c0;
+    color:#fff;
+}
+/*鼠标悬停*/
+.heimu:hover,.heimu:hover a{
+    transition:color .13s linear;
+    color:#fff;
+}
