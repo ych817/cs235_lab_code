@@ -21,3 +21,8 @@ h1 {
     transition:color .13s linear;
     color:#fff;
 }
+
+.padding_and_margin {
+    padding: 20mm 50mm;
+    margin: 100mm 200mm
+}
